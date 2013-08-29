@@ -39,7 +39,7 @@ class Fourofour {
 		$page = config_item('site_404');
 
 		$this->EE->output->set_status_header(301);
-		$this->EE->output->set_header('Location: ' . $page);
+		$this->EE->output->set_header('Location: /' . $page);
 	}
 
 	public function page()
